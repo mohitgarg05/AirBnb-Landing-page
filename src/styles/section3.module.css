@@ -1,0 +1,204 @@
+.carouselSection{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carouselWrapper{
+    width: 75%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.car{
+ 
+    height: inherit;
+}
+
+
+/* section 4 */
+
+.section4{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4Wrapper{
+    height: 75vh;
+    width: 75%;
+    background-image: url("https://a0.muscache.com/pictures/926c4a0e-0934-480b-bf57-cf770ef2e9cd.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.insideWrap{
+    color: white;
+    margin-left: 80px;
+
+}
+.insideWrap h3{
+    font-size: 25px;
+}
+
+.insideWrap h1{
+    font-size: 45px;
+   
+}
+
+.insideWrap span{
+    color : rgb(255,56,92)
+}
+
+.insideWrap button{
+    background-color: rgb(228,29,91);
+    font-size: 25px;
+    color: white;
+    height: 70px;
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+/* section 5 */
+.section5{
+    height: 75vh;
+    
+}
+
+.sec5Wrapper{
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+
+.sec5heading{
+    margin-top: 100px;
+    
+}
+
+.sec5heading h1{
+    font-size: 42px;
+    letter-spacing: 1.3px;
+}
+
+.sec5card{
+    margin-top: 60px;
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 20px;
+    overflow : scroll;
+    flex-wrap: nowrap;
+    
+}
+
+.sec5card::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* section 6 */
+
+.section6{
+    height: 76vh;
+   
+}
+
+.sec6Wrapper{
+   
+    height: inherit;
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.flexone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 45%;
+}
+.wholediv{
+    margin-left: 30px;
+    line-height: 75px;
+}
+.flexone p{
+    letter-spacing: 0.07em ;
+    margin-bottom: 16px ;
+    font-size: 18px ;
+    line-height: 21px;
+    font-weight: 600;
+    
+}
+
+
+.flexone h1{
+    margin-top: 10px;
+    font-size:3rem;
+    line-height: 44px
+}
+
+.flexone button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.flextwo{
+  width: 60%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.sec6img{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.sec6img img{
+    width: 100%;
+}
+
+@media (max-width:1100px){
+
+    .carouselWrapper{
+       width: 90%;
+    }
+    .sec4Wrapper{
+        width: 90%;
+    }
+
+    .sec5Wrapper{
+    
+        width: 90%;
+     
+    }
+    .sec6Wrapper{
+   
+        width: 100%;
+        
+    }
+    
+  
+}

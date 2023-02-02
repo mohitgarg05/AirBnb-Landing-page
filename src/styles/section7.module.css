@@ -1,0 +1,141 @@
+.section7{
+    height: 60vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sec7Wrapper{
+   
+    width: 75%;
+
+    height: 50vh;
+}
+
+.sec7heading h1{
+    font-size: 46px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+.gridDisplay{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    height: 30vh;
+    
+}
+
+.div1,
+.div2,
+.div3{
+    padding: 30px;
+    
+}
+
+.div1 h3,
+.div2 h3,
+.div3 h3{
+    font-size: 24px;
+    color: #222222;
+    line-height: 30px;
+}
+.div1 p,
+.div2 p,
+.div3 p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+
+/* section 8 */
+
+.section8{
+    height: 65vh;
+    background-image: url("https://a0.muscache.com/im/pictures/9d2dc3e5-fc2d-420d-a524-133be70529a3.jpg?im_q=highq&im_w=1680");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.sec8Wrapper{
+    width: 100%;
+}
+
+.sec8div{
+    
+    width: 72%;
+    margin: auto;
+}
+
+.sec8div h1{
+    
+    font-size: 42px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    color: white;
+    max-width: 500px;
+    line-height: 50px;
+}
+
+.sec8div p{
+margin-top: 16px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.sec8div button{
+    background-color: rgb(228,29,91);
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1200px){
+
+    .div1 h3,
+.div2 h3,
+.div3 h3{
+    font-size: 20px;
+  
+}
+    .div1 p,
+.div2 p,
+.div3 p{
+    font-size: 12px;
+}
+
+}
+
+@media (max-width:1100px){
+
+    .sec7Wrapper{
+        width: 90%;
+    }
+    
+  
+}
+
+@media (max-width:866px){
+    .sec7Wrapper{
+        width: 100%;
+    }
+    .div1 p,
+.div2 p,
+.div3 p{
+    margin-top: 15px;
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+}
